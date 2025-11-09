@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Balloon</title>
+	<style>
+		html {height:100%;}
+		body
+		{
+			height:100%;
+			margin:0;
+			padding:0;
+		}
+		.main
+		{
+			height:100%;
+			display: flex;
+			flex-direction:column;
+			justify-content: space-around;
+		}
+		#loon
+		{
+			margin:auto;
+			width:200px;
+			height:200px;
+			background-color:red;
+			border-radius:50%;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div id="loon"></div>
+	</div>
+	<script>
+		var balloon = document.getElementById("loon");
+		var color = ["red", "green", "blue"];
+		var i = 0;
+		balloon.addEventListener("click", ft_Click);
+		balloon.addEventListener("mouseleave", ft_Leave);
+		function ft_Click()
+		{
+			balloon.style.width = balloon.offsetWidth >= 420 ? "200px" : balloon.offsetWidth + 10 + "px";
+			balloon.style.height = balloon.offsetHeight >= 420 ? "200px" : balloon.offsetHeight + 10 + "px";
+			i = i == 2 ? 0 : i + 1;
+			balloon.style.backgroundColor = color[i];
+
+		}
+		function ft_Leave()
+		{
+			balloon.style.width = balloon.offsetWidth > 200 ? balloon.offsetWidth - 5 + "px" : "200px";
+			balloon.style.height = balloon.offsetHeight > 200 ? balloon.offsetHeight - 5 + "px" : "200px";
+			i = i == 0 ? 2 : i - 1;
+			balloon.style.backgroundColor = color[i];
+		}
+	</script>
+</body>
+</html>

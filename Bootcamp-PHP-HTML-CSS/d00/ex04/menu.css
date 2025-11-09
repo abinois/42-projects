@@ -1,0 +1,61 @@
+li { list-style-type: none; }
+body {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(https://www.reviewjournal.com/wp-content/uploads/2019/08/12548824_web1_CEREAL_080919ev_017.jpg);
+	background-repeat: repeat;
+}
+.main{
+	position:absolute;
+	top:50px;
+	left:30px;
+    display: flex;
+	font-family:Arial;
+	flex-direction:column;
+	width:300px;
+}
+.niveau1
+{
+	cursor:pointer;
+	letter-spacing:2px;
+	background-color:#46a79c;
+	color: beige;
+	font-size:1.6em;
+	padding: 17px 0px 17px 25px;
+	height:1.6em;
+	box-shadow:-10px 10px #8145d4;
+}
+.niveau2
+{
+	display: flex;
+	cursor:pointer;
+	background-color:#46a79c;
+	color: beige;
+	font-size:0.75em;
+	border-left: 8px solid beige;
+	border-radius: 0px 8px 8px 0px;
+	display: none;
+	position: relative;
+	left:170px;
+	top:-25px;
+	width:290px;
+	margin:0px;
+	padding: 10px 0px 10px 0px;
+}
+.niveau1:hover
+{
+	background-color:#326799;
+	border-bottom: beige solid 8px;
+	box-shadow:-10px 10px #fb414b;
+}
+.niveau2 li { padding: 2px 0px 2px 13px; }
+.niveau2 li:hover
+{
+	border-left: #8145d4 solid 8px;
+	background-color:#326799;
+	border-right: #8145d4 solid 8px;
+}
+.niveau1:hover ul.niveau2 { display: block; }
+.menu0 {border-radius:8px 8px 0px 0px;}
+.menu4 {border-radius:0px 0px 8px 8px;}

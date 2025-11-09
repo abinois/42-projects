@@ -1,0 +1,192 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: #454545
+}
+header
+{
+	background-color: #909090;
+	width: 75%;
+	height: 130px;
+	min-width: 850px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 10px 10px 8px black;
+}
+/*--------------     HEADER       ------------------*/
+header .dof
+{
+	height: 100px;
+	margin-left: 20px;
+}
+
+header .minitools
+{
+	display: flex;
+	justify-content: space-around;
+}
+header .minitools .redbutton
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	}
+header .loupe
+{
+	position: relative;
+	top: 25px;
+	height: 115px;
+}
+header .reload
+{
+	height: 20px;
+	margin: 0px 6px 0px 0px;
+}
+header .quit {margin:0px 6px 0px 0px;}
+/*--------------     M A I N       -----------------*/
+.main
+{
+	min-width: 900px;
+	z-index: 0;
+}
+.middle
+{
+	width: 70%;
+	min-width: 850px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	margin-top: 30px;
+}
+nav,.cluster img
+{
+	border-radius: 10px 10px 10px 10px;
+	background-color: #909090;
+	box-shadow: 10px 10px 8px black;
+}
+/*--------------      Cluster       ----------------*/
+.cluster img
+{
+	width:100%;
+	padding: 10px;
+}
+.cluster
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 75%;
+	min-width: 600px;
+}
+.ikea_link
+{
+	position: relative;
+	top: -30%;
+	left: -13%;
+	height: 12%;
+	width: 5%;
+	border: solid transparent 15px;
+}
+.apple_link
+{
+	position: relative;
+	top: -42%;
+	left: 38%;
+	height: 80px;
+	width: 12%;
+	border: solid transparent 15px;
+}
+/*--------------     LEFT NAV       ----------------*/
+.bouton img
+{
+	max-width: 50px;
+	margin:0px 10px 0px 10px;
+}
+.MenuLeft
+{
+	display: flex;
+	padding:10px 0px 10px 0px;
+	margin-right: 3%; 
+	flex-direction: column;
+	justify-content:center;
+	width: 10%;
+	align-items: center;
+	min-width: 85px;
+	max-width: 100px;
+	height: 30%;
+	min-height: 280px;
+}
+/*--------------     RIGHT NAV       ---------------*/
+.MenuRight
+{
+	display: flex;
+	padding: 10px 0px 10px 0px;
+	margin-left: 3%; 
+	flex-direction: column;
+	justify-content:flex-start;
+	align-items: center;
+	width:10%;
+	min-width: 85px;
+	max-width: 100px;
+	height:30%;
+	min-height: 280px;
+}
+.bricktab
+{
+	display:flex;
+	flex-direction:column;
+	padding-top:8px;
+}
+.line2 { position: relative; top:-4px; }
+.brickline { display: flex; margin:0px 10px 0px 10px;}
+.brickbloc img { width: 22px; }
+/*--------------     CHATBOX       ---------------*/
+.chat
+{
+	width: 30%;
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+	min-width: 400px;
+	max-width: 450px;
+	height: 120px;
+	margin: 0px;
+	padding: 10px;
+	background-color: #22fa53;
+	border-radius: 10px 10px 10px 10px;
+	z-index: 1;
+	position: relative;
+	top: -280px;
+	left: 10%;
+	box-shadow: 10px 10px 8px black;
+}
+.chat .action
+{
+	line-height: 18px;
+	position: relative;
+	top: -15px;
+	font-family: times new roman;
+}
+.chat input[type="text"] { width: 70%; }
+.chat input {position: relative; top: -40px;;}
+.italic
+{
+	font-family: arial;
+	font-style: italic;
+	font-size:0.8em;
+	position: relative;
+	top: -38px;}
+.ordi { text-shadow: 5px 5px 3px red;}
+.entrez { font-size: 2em; }
+
+/*--------------     HOVER       ---------------*/
+.bricktab:hover,.bouton img:hover
+{
+	border: solid red 3px;
+	border-radius:5px;
+}

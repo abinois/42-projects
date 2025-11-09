@@ -1,0 +1,76 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	height:100%;
+	width:100%;
+	background-size: 100%;
+	background-repeat: repeat;
+	background-image: url("https://www.courrierinternational.com/sites/ci_master/files/styles/image_original_1280/public/assets/images/gettyimages-89858309-w.jpg?itok=5IAKNc9B");
+}
+h1
+{
+	width: 70%;
+	margin: 25px auto;
+	font-family: Helvetica;
+	text-align: center;
+	font-size: 2vw;
+}
+h1:hover {font-style: italic;;}
+table
+{
+	width: 90%;
+	margin: auto;
+	position: relative;
+	top: -55px;
+	border-spacing: 0.4vw;
+}
+td
+{
+	padding: 0px;
+	margin:0px;
+	line-height: 0px;
+}
+tr.endline td {position: relative; top: 15px;}
+.elem
+{
+	height: 40px;
+	border: solid black 2px;
+}
+.green {background-color: #6ad190;}
+.red {background-color: #cf093f;}
+.beige {background-color: #f0deba;}
+.blue {background-color: #73e2cd;}
+.pink {background-color: #ffc9e7;}
+.violet {background-color: #cd73e2;}
+.yellow {background-color: yellow;}
+.or {background-color: #ffa500;}
+.orange {background-color: #ed968e;}
+.grey {background-color: grey;}
+.non {background-color: #e2e2e2;}
+.elem:hover {border: 2px black dashed; background-color: white;}
+.name
+{
+	text-align: center;
+	font-weight: bold;
+	font-size:2.5vw;
+}
+.num
+{
+	margin-left: 3px;
+	font-family: monaco;
+	text-align: left;
+	font-size: 1vw;
+}
+.poids
+{
+	margin-right: 2px;
+	text-align: right;
+	font-size: 0.8vw;
+}
+.range
+{
+	font-size: 12px;
+	font-family: monaco;
+	text-align: center;
+}

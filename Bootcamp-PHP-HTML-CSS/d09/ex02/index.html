@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>to do list</title>
+	<style>
+	body {
+		margin: 0%;
+		padding: 0%;
+		height: 100%;
+		background-color: slateblue;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	h1 {
+		margin:40px auto auto auto;
+		text-align:center;
+		color:palegreen;
+		text-shadow: 3px 3px darkblue;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-size: 3.5em;
+	}
+	h1:hover {color: orangered; }
+	#new {
+		width:80px;
+		height:30px;
+		border-radius: 20px;
+		margin-top:20px;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-size: 1em;
+		letter-spacing: 2px;
+	}
+	#new:hover {
+		box-shadow:orangered 0px 5px;
+		color:slateblue;}
+	.todo
+	{
+		border: solid darkblue 6px;
+		border-radius: 15px;
+		background-color: palegreen;
+		padding: 15px;
+		margin-bottom: 15px;
+		text-align:center;
+		font-size:2em;
+		font-family:Georgia, 'Times New Roman', Times, serif;
+		color:royalblue;
+	}
+	.todo:hover {border-color: white;}
+	#ft_list
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		margin-top:20px;
+		height: 100%;
+	}
+	</style>
+</head>
+<body onload="ft_Cookie()">
+	<h1>LISTE URGENTE</br>des choses qui urgent</h1>
+	<input id="new" value="New" type="button"></input>
+	<div id="ft_list"></div>
+	<script src="todo.js"></script>
+</body>
+</html>

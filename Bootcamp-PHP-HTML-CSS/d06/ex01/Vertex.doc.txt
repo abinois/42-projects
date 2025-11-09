@@ -1,0 +1,12 @@
+<- Vertex ----------------------------------------------------------------------
+Instancie un objet ayant pour variables 'x', 'y', 'z' et 'w' correspondants
+aux coordonnées d'un point, ainsi qu'une variable 'color'
+qui est une instance de la class Color (blanc par défault).
+
+Fonctions d'accès:		Fonctions d'assignation:
+	- x_of()    			-set_x()
+	- y_of()     			-set_y()
+	- z_of()     			-set_z()
+	- w_of()     			-set_w()
+	- color_of()			-set_color()
+---------------------------------------------------------------------- Vertex ->
